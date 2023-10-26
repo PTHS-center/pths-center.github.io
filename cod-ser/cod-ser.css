@@ -1,6 +1,9 @@
 :host {
 	display: block;
-
+	cursor: pointer;
+}
+:host(:hover) {
+	text-decoration: underline;
 }
 
 :host:before {
